@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply bg-[#2B2B2B] flex flex-row p-3
+  }
+  .navbar-h{
+    @apply flex w-full justify-between
+  }
+  .nav-links{
+    @apply flex 
+  }
+  .nav-links ul{
+    @apply flex justify-center items-center text-white gap-6 text-base
+  }
+  .nav-links ul li{
+    @apply hover:text-[#FFD700] cursor-pointer font-semibold
+  }
+  .n-btn{
+    @apply bg-[#FFD700] px-4 py-2 rounded font-semibold text-sm text-black
+  }
+  .hero-page{
+    @apply flex flex-col justify-center items-center
+  }
+  .btn-g-1{
+    @apply flex  mt-10 gap-5
+  }
+  .w-us{
+    @apply flex m-10 flex-col bg-blue-600 rounded-lg items-center justify-center
+  }
+  .w-us  h1{
+    @apply text-2xl m-5 font-semibold text-white tracking-wide  w-fit
+    px-6 py-3 rounded-lg opacity-100 uppercase
+  }
+  .w-us-2{
+    @apply flex gap-10 p-10 pt-2
+  }
+  .w-us-2 p{
+    @apply text-sm bg-white p-10 rounded-md font-normal leading-relaxed
+    text-justify tracking-wide
+  }
+  .w-us-h{
+    @apply text-3xl font-semibold mt-10 ml-5 
+  }
+  .w-us-2 img{
+    @apply rounded-md
+  }
+  .section-2 {
+    @apply  text-black p-3 bg-gray-100
+  }
+  
+}
