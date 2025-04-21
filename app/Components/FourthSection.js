@@ -52,7 +52,7 @@ const FourthSection = () => {
             </div>
             <div className="relative">
               <Image
-                src="/images/chairman.jpg" // Replace with the correct image path
+                src={cs4} // Replace with the correct image path
                 alt="Chairman"
                 width={400}
                 height={400}
