@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import yellow1 from '../images/photos/yellow1.png'
