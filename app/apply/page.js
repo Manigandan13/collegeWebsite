@@ -29,7 +29,7 @@ const page = () => {
   };
 
   return (
-    <div className="py-12  bg-gray-100">
+    <div className="py-12  bg-gray-100 mt-4">
       <div className="max-w-4xl mx-auto p-8 px-13 bg-white rounded-lg shadow-md">
         <h2 className="text-3xl text-center mb-6">Apply Now</h2>
         <form action="https://formsubmit.co/viraltamilan13072005@gmail.com" method="post">
