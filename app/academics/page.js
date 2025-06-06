@@ -3,7 +3,7 @@ import Courses from "../Components/Courses";
 
 const page = () => {
   return (
-    <div className="px-6 py-12 mt-4">
+    <div className="px-6 py-12 mt-6">
       {/* Academics Title */}
       <h2 className="text-3xl font-semibold text-center mb-8 text-blue-600">Academics at SSS College</h2>
 
