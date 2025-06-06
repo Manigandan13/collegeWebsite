@@ -25,7 +25,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="relative w-full  overflow-hidden">
+    <div className="relative w-full  overflow-hidden mt-4">
 
       {/* Title Section */}
       <div className="text-center py-16">
