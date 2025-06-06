@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-      <div className="h-screen bg-cover bg-center animate-bg-cycle">
+      <div className="h-screen bg-cover bg-center animate-bg-cycle mt-4">
           <div className="flex items-center justify-center h-full bg-[#0A0A0A] bg-opacity-10">
           <div className="text-center text-white px-6">
               <h1 className="text-5xl font-semibold">Welcome to SSS College</h1>
