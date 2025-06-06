@@ -23,7 +23,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="py-12 bg-gray-100">
+    <div className="py-12 bg-gray-100 mt-4">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-semibold text-blue-600">Cultural Gallery</h2>
         <p className="text-xl text-gray-700">A glimpse into the vibrant cultural life at SSS College</p>
